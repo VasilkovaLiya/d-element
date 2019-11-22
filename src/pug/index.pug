@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="./styles/style.css")
+        link(rel="shortcut icon", type="image/x-icon" href="./images/favicon.ico")                
+        title Dakota Jhonson
+    body
+        section.section-hero(id='home')
+            .section-hero__wrapper
+                header
+                    .logo-container
+                        a.logo__link(href="/")
+                           <svg class="logo__svg" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><g><g><path d="M26 9.208v16.25c0 .299-.243.542-.542.542H9.208a.542.542 0 0 1-.541-.542v-1.625h-3.25v.542a.542.542 0 0 1-1.084 0V9.694C1.903 9.42 0 7.377 0 4.874A4.88 4.88 0 0 1 4.875 0 4.88 4.88 0 0 1 9.75 4.875c0 2.502-1.902 4.546-4.333 4.819v13.055h3.25V9.208c0-.299.242-.542.541-.542h11.375V7.04c0-.299.243-.542.542-.542h2.167c.299 0 .541.243.541.542v1.625h1.625c.3 0 .542.243.542.542zm-20.583-6.5c0-.3-.243-.542-.542-.542a2.712 2.712 0 0 0-2.708 2.709.542.542 0 0 0 1.083 0c0-.896.729-1.626 1.625-1.626a.542.542 0 0 0 .542-.54zm17.333 9.208H11.917V22.75H22.75zM13 17.333A4.338 4.338 0 0 1 17.333 13a4.338 4.338 0 0 1 4.334 4.333 4.338 4.338 0 0 1-4.334 4.334A4.338 4.338 0 0 1 13 17.333zm2.167 0a.542.542 0 0 0 1.083 0c0-.597.486-1.083 1.083-1.083a.542.542 0 0 0 0-1.084 2.169 2.169 0 0 0-2.166 2.167z"/></g></g></svg>
+                            span.logo__text Photography
+                    .burger__btn
+                        .animated-icon3
+                            span
+                            span        
+                            span        
+                    nav.menu.menu-hidden.menu-visuallyhidden
+                        ul.menu__list
+                            li.menu__item 
+                                a(href="#") Home
+                            li.menu__item 
+                                a(href="#section-about") About
+                            li.menu__item 
+                                a(href="#clients") Clients
+                            li.menu__item 
+                                a(href="#portfolio") Portfolio
+                            li.menu__item 
+                                a(href="#blog") Blog
+                            li.menu__item                                               
+                .hero__block(id='up') 
+                    .hero__title Hello, I'm Dakota Jhonson
+                    .hero__text I’m an Art Director & Photographer based in the San Francisco.
+                    a.btn-link(href="#portfolio")
+                        .btn See my works
+            .scroll               
+                a(href="#section-about")
+                    img(src="./images/scroll.png", alt="scroll")
+            .socials
+                .socials__layout
+                ul.socials__container
+                    li.socials__link    
+                        a(href="https://www.facebook.com" target="_blank")
+                            <svg class='socials__icon' xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="./icons/sprite.svg#facebook-logo"></use>
+                            </svg> 
+                    li.socials__link
+                        a(href="https://www.twitter.com" target="_blank")
+                            <svg class='socials__icon' xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="./icons/sprite.svg#twitter"></use>
+                            </svg> 
+                    li.socials__link  
+                        a(href="https://www.vk.com" target="_blank")
+                            <svg class='socials__icon' xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="./icons/sprite.svg#internet"></use>
+                            </svg> 
+                    li.socials__link 
+                        a(href="https://www.instagram.com" target="_blank")
+                            <svg class='socials__icon' xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="./icons/sprite.svg#logo"></use>
+                            </svg> 
+        section.section-about(id='section-about')
+            .grey-block 
+            .about__img
+                img(src="./images/colored-blocks.png", alt="about-pic")
+            .about__block
+                .about__wrapper
+                    h2.section__title About MySelf
+                    .section__text Hey, thanks for stopping by. My name’s Dakota Jhonson junior and I’m a briliant Art Director and pro Photographer based in the San Francisco where I make cool things for agencies and brands around globe. Mentas is loaded with useful features, each one with its own meaningful purpose. We listen to our users and integrate their feature requests on a regular basis. If you like my work then please do not  hesitate to reach out.            
+                    .skills__title What I Do?
+                    ul.skills__list
+                        li.skills__item
+                            .skills__name Fashion
+                            .skills__img
+                                img(src="./images/about-pic1.png", alt="pic1")
+                        li.skills__item
+                            .skills__name Portraits
+                            .skills__img
+                                img(src="./images/about-pic2.png", alt="pic1")
+                        li.skills__item
+                            .skills__name Lifestyle
+                            .skills__img
+                                img(src="./images/about-pic3.png", alt="pic1")
+                    a.btn-link(href="")            
+                        .btn.btn--blue View My Flickr Profile
+        section.section-clients(id='clients')
+            h2.section__title.section__title--white Happy Clients
+            ul.clients__list
+                li.bg-salon
+                li.bg-fus
+                li.bg-brillbird
+                li.bg-loxa
+                li.bg-minkys
+                li.bg-babaria
+        section.section-portfolio(id='portfolio')
+            ul.portfolio__list
+                li.portfolio__item.portfolio__item--border
+                    .portfolio__text-wrapper
+                        h2.section__title.section__title--tal Portfolio
+                        .section__text The point of using Lorem Ipsum is that it has a non  more-or-less  dik sonormal distri bution of letters, as cliper opposed. a closer look to our fully furnished and beautiful demos, which can be use easily On this find website you can find some pictures I've taken during my travel. a clo look to our fully furnished and so beautful demos, which can be use.
+                        a.section__readmore-link(href="#") Read More...
+                li.portfolio__item
+                    .pic1
+                        .socials__share
+                            <svg class='socials__icon' xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="./icons/sprite.svg#network"></use>
+                            </svg>
+                            .ya-share2(data-services="vkontakte,twitter,facebook" data-counter)                                       
+                    .pic2
+                    a.btn-link(href="")
+                        .btn.btn--notcolor See more                    
+                li.portfolio__item
+                    .pic3
+                    .pic4                    
+                    .pic5                    
+                    .pic6                    
+                    .pic7                    
+                    .pic8 
+        section.section-blog(id="blog") 
+            .blog__list-wrapper                      
+            ul.blog__list
+                li.blog__item
+                    .blog__img
+                        img(src="./images/blog-pic1.png", alt="Pic")
+                    .content-wrapper
+                        .blog__title Design is the method of putting form and content together.
+                        .blog__topic Life style
+                            span.blog__date - July 3, 2017
+                        .blog__text Sed ut perspiciatis unde omnis iste natus error sit lao hoksi voluptatem lios mukatu accusantium doloremq doisa nojilaudan tium, totam rem aperiam, uni eaque ipsa quae ab cok illo inven tore siva.
+                        a(href="#" class='blog__link') Read More                        
+                li.blog__item.blog__item--lower-item                    
+                    h2.section__title Blog
+                    .blog__pretext The point of using Lorem Ipsum is that it has a non  more-or-less  normal distri bution of letters, as cliper opposed. a closer look to our fully                     
+                    .shadow-wrapper
+                        .blog__img
+                            img(src="./images/blog-pic2.png", alt="Pic")
+                        .content-wrapper
+                            .blog__title Design is the method of putting form and content together.
+                            .blog__topic Life style 
+                                span.blog__date - July 3, 2017
+                            .blog__text Sed ut perspiciatis unde omnis iste natus error sit lao hoksi voluptatem lios mukatu accusantium doloremq doisa nojilaudan tium, totam rem aperiam, uni eaque ipsa quae ab cok illo inven tore siva.
+                            a(href="#" class='blog__link') Read More                        
+                li.blog__item
+                    .blog__img
+                        img(src="./images/blog-pic3.png", alt="Pic")
+                    .content-wrapper    
+                        .blog__title Design is the method of putting form and content together.
+                        .blog__topic Life style
+                            span.blog__date - July 3, 2017
+                        .blog__text Sed ut perspiciatis unde omnis iste natus error sit lao hoksi voluptatem lios mukatu accusantium doloremq doisa nojilaudan tium, totam rem aperiam, uni eaque ipsa quae ab cok illo inven tore siva.
+                        a(href="#" class='blog__link') Read More
+        section.section-form
+            h2.section__title.section__title--white Let's work?
+            .form-wrapper
+                form(action="send.php" method='post' id='form' class='form')
+                    ul.form__list
+                        li.form__item 
+                            input(class='form__input' type="text" name='name' id='name' data-message='Name must be at least 4 latin symbols' placeholder='*Your name')
+                        li.form__item 
+                            input(class='form__input' type="email" name='email' id='email' data-message='Enter email with @ symbol'  placeholder='*Your email' pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}")
+                        li.form__item 
+                            textarea(class='form__input textarea' name='message' id='message' data-message='Enter short message ' placeholder='*Your message')
+                        li.form__item 
+                            input(class='btn btn--submit' type="submit" value='Send message')
+                .arrow
+                   a(href="#up" class='arrow-link') 
+                    img(src="./images/arrow-up.png", alt="up")
+            .popup__container 
+                .popup Спасибо! Мы свяжемся с вами в ближайшее время!
+                    a.btn-link(href="")
+                        .btn.btn--ok OK!
+        footer
+            .footer__container    
+                ul.footer__list            
+                    li.footer__item
+                        .logo-container
+                            a.logo__link(href="/")
+                                <svg class="logo__svg logo__svg--footer" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><g><g><path d="M26 9.208v16.25c0 .299-.243.542-.542.542H9.208a.542.542 0 0 1-.541-.542v-1.625h-3.25v.542a.542.542 0 0 1-1.084 0V9.694C1.903 9.42 0 7.377 0 4.874A4.88 4.88 0 0 1 4.875 0 4.88 4.88 0 0 1 9.75 4.875c0 2.502-1.902 4.546-4.333 4.819v13.055h3.25V9.208c0-.299.242-.542.541-.542h11.375V7.04c0-.299.243-.542.542-.542h2.167c.299 0 .541.243.541.542v1.625h1.625c.3 0 .542.243.542.542zm-20.583-6.5c0-.3-.243-.542-.542-.542a2.712 2.712 0 0 0-2.708 2.709.542.542 0 0 0 1.083 0c0-.896.729-1.626 1.625-1.626a.542.542 0 0 0 .542-.54zm17.333 9.208H11.917V22.75H22.75zM13 17.333A4.338 4.338 0 0 1 17.333 13a4.338 4.338 0 0 1 4.334 4.333 4.338 4.338 0 0 1-4.334 4.334A4.338 4.338 0 0 1 13 17.333zm2.167 0a.542.542 0 0 0 1.083 0c0-.597.486-1.083 1.083-1.083a.542.542 0 0 0 0-1.084 2.169 2.169 0 0 0-2.166 2.167z"/></g></g></svg>
+                                span.logo__text.logo__text--footer Photography
+                        .footer__subtitle Contacts
+                        .footer__text 237 Church St, San Francisco, CA 94114, USA nazmulhasanjingar@gmail.com
+                        .footer__subtitle Follow me on
+                        ul.footer-socials__container
+                            li.footer-socials__link    
+                                a(href="https://www.facebook.com" target="_blank")
+                                    <svg class='socials__icon' xmlns="http://www.w3.org/2000/svg">
+                                        <use xlink:href="./icons/sprite.svg#facebook-logo"></use>
+                                    </svg> 
+                            li.footer-socials__link
+                                a(href="https://www.twitter.com" target="_blank")
+                                    <svg class='socials__icon' xmlns="http://www.w3.org/2000/svg">
+                                        <use xlink:href="./icons/sprite.svg#twitter"></use>
+                                    </svg> 
+                            li.footer-socials__link  
+                                a(href="https://www.vk.com" target="_blank")
+                                    <svg class='socials__icon' xmlns="http://www.w3.org/2000/svg">
+                                        <use xlink:href="./icons/sprite.svg#internet"></use>
+                                    </svg> 
+                            li.footer-socials__link 
+                                a(href="https://www.instagram.com" target="_blank")
+                                    <svg class='socials__icon' xmlns="http://www.w3.org/2000/svg">
+                                        <use xlink:href="./icons/sprite.svg#logo"></use>
+                                    </svg>     
+                        .socials
+                    li.footer__item
+                        .footer__title Latest Blog Posts
+                        ul.posts__list
+                            li.posts__item
+                                .post__img
+                                    img(src="./images/footer-pic1.png", alt="pic")
+                                .posts__descr
+                                    .posts__text Design is the method of putting form and content together.
+                                    .posts__topic Life style - 
+                                        span July 3, 2017
+                            li.posts__item
+                                .post__img
+                                    img(src="./images/footer-pic2.png", alt="pic")
+                                .posts__descr
+                                    .posts__text Design is the method of putting form and content together.
+                                    .posts__topic Life style - 
+                                        span July 3, 2017
+                            li.posts__item
+                                .empty
+                                .posts__descr
+                                    .posts__link More...
+                    li.footer__item
+                        .footer__title Quick Link   
+                        nav.menu
+                            ul.menu__list.menu__list-column            
+                                li.menu__item 
+                                    a(href="#home") Home
+                                li.menu__item
+                                    a(href="#section-about") About
+                                li.menu__item
+                                    a(href="#clients") Clients
+                                li.menu__item 
+                                    a(href="#portfolio") Portfolio
+                                li.menu__item
+                                    a(href="#blog") Blog
+                    li.footer__item
+                        .footer__title Instagram Update
+                        .grid-container
+                            .post-1
+                            .post-2
+                            .post-3
+                            .post-4
+                            .post-5
+                            .post-6
+            .rights-reserved All Rights @ 2017 By Nazmul Hasan Jingar
+			script(src="https://cdnjs.cloudflare.com/ajax/libs/svg4everybody/2.1.9/svg4everybody.js" type="text/javascript")
+			script(src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript")        
+			script(src="./scripts/index.js" type="text/javascript")
+			<script src="https://yastatic.net/share2/share.js"></script>
+
+
+                    
+
